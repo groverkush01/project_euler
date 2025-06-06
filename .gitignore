@@ -1,0 +1,10 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore all .cpp and .py files
+*.cpp
+*.py
+
+# But allow only q{number}.cpp and q{number}.py
+!q[0-9]*.cpp
+!q[0-9]*.py
